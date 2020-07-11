@@ -1,0 +1,235 @@
+ body
+{
+  background-image: url(https://wallpaperplay.com/walls/full/c/7/e/38926.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+h1
+{
+font-family: 'Dancing Script', cursive;
+	font-weight:100;
+	color: #7689A9; 
+	font-size:75;
+	text-align: left;
+	transition: ease-in;	
+}
+.under{
+  transition: all 2s;
+
+}
+
+.center{
+  display:block;
+    margin-right: auto;
+    margin-left: auto;
+    border: double white;
+   border-width: 1px;
+   width:40%;
+  height:70%;
+  -moz-box-shadow:4px 4px 5px #888888;
+  -ms-box-shadow: 4px 4px 5px #888888;
+  -webkit-box-shadow: 4px 4px 5px #888888;
+  -o-box-shadow: 4px 4px 5px #888888;
+  box-shadow: 4px 4px 5px #888888;
+  margin-top: 10px;
+  transition: all 2s;
+  max-width: 80%;
+  height: auto; }
+
+
+.center:hover
+{
+  transform:scale(1.1);
+}
+
+h2
+{
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	color: white;
+	font-weight:50;
+	font-size: 36;
+}
+
+
+.btn
+	{
+	font-size: 30;
+	font-family: 'Cinzel', serif;
+	}
+
+
+.btn-xl
+ {
+  margin: 200px; 
+  outline-width: 5px;
+  border-spacing:20;
+  align-items: center; 
+}
+
+
+.btn-info
+{
+  background-color: #6195C4;
+  border-color: transparent;
+  border-width: 25px;
+  outline-width: 10px;
+  padding:5px;
+ font-family: 'Cinzel', serif;
+}
+
+
+.btn-info:hover 
+{
+  background-color: #0C4D88;
+  border-color: transparent;
+  cursor: pointer;
+}
+ 
+
+ button
+ {
+  
+ 	display: block;
+margin-left: auto;
+margin-right: auto;
+ }
+.contact{
+  margin-left: 490px;
+  margin-right: 490px;
+  box-shadow: white;
+  box-sizing: 50%;
+  border-style: solid;
+  border-color: white;
+  padding: 20px;
+ border-width: 2px;
+ -moz-box-shadow:4px 4px 5px #888888;
+  -ms-box-shadow: 4px 4px 5px #888888;
+  -webkit-box-shadow: 4px 4px 5px #888888;
+  -o-box-shadow: 4px 4px 5px #888888;
+  box-shadow: 4px 4px 5px #888888;
+ border-left: auto;
+  border-right: auto;
+
+}
+h3{
+  color: #161D3E;
+  text-align: center;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 36;
+  
+}
+
+p{
+  color: #A9B0CD;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+    font-weight:20;
+  font-size: 25;
+}
+
+#footer .footer {
+  min-height: 10px;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 10px;
+
+}
+#footer h2 {
+  color: white;
+  font-weight: 500;
+  font-size: 1.8rem;
+  letter-spacing: .1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#footer .social-icon {
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: space-between;
+
+}
+#footer .social-item {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+#footer .social-item img {
+  filter: grayscale(1);
+  transition: .3s ease filter;
+}
+#footer .social-item:hover img {
+  filter: grayscale(0);
+}
+ .modal{
+   background-color: rgba(0,0,0, .8);
+   width:100%;
+   height: 100vh;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 10;
+   opacity: 0;
+   visibility: hidden;
+   transition: all .5s;
+  }
+
+  .modal__content{
+   width: 30%;
+   height: 30%;
+   background-image:url(https://wallpaperaccess.com/full/1550291.jpg);
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   padding: 2em;
+   border-radius: 1em;
+   opacity: 0;
+   visibility: hidden;
+   transition: all .5s;
+   margin-right: auto;
+   margin-left: auto;
+  }
+
+  #modal:target{
+   opacity: 1;
+   visibility: visible;
+  }
+
+  #modal:target .modal__content{
+   opacity: 1;
+   visibility: visible;
+  }
+
+  .modal__close{
+   color: #363636;
+   font-size: 2em;
+   position: absolute;
+   top: .5em;
+   right: 1em;
+  }
+
+  .modal__heading{
+   color: #127871;
+   margin-bottom: 1em; 
+   text-align: center;
+   font-family: 'Noto Sans JP', sans-serif;
+
+  }
+
+  .modal__paragraph{
+   font-size: 20;
+  color:#298D86;
+  }
+
+.modal-open{
+ display: inline-block;
+ color: dodgerblue;
+ margin: 2em;
+}
+}
+
+}
